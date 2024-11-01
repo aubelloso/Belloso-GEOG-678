@@ -1,9 +1,9 @@
 # GEOG-678-Fall24
-# Author = Aurora Belloso
+# Aurora Belloso
 
 
-| Week          | Homework      | Lab   |
-| ------------- |:-------------:| -----:|
-| 01            |[01](C:\DevSource\Belloso-GEOG-678\homework\Week02)
-| 02            | centered      |   $12 |
-| 03            | are neat      |    $1 |
+| Homework                                 | Lab                           |Project     |
+|:----------------------------------------:| -----------------------------:|-----------:|
+|[Week01](homework/Week01/README.md)       | [Week01](lab/Week01/README.md)|-           |
+|[Week02](homework/Week02/README.md)       | [Week02](lab/Week02/README.md)|-           |
+|[Week03](homework/Week03/README.md)       | [Week03](lab/Week03/README.md)|-           |
