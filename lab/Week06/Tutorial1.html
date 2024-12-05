@@ -140,39 +140,39 @@ var geojsonFeature = {
         "type": "Point",
         "coordinates": [-104.99404, 39.75621]
     }
-};
+    };
 
-L.geoJSON(geojsonFeature, {
+    L.geoJSON(geojsonFeature, {
     onEachFeature: onEachFeature
-}).addTo(map);
+    }).addTo(map);
 
-var someFeatures = [{
-    "type": "Feature",
-    "properties": {
+    var someFeatures = [{
+        "type": "Feature",
+        "properties": {
         "name": "Coors Field",
         "show_on_map": true
-    },
-    "geometry": {
+        },
+        "geometry": {
         "type": "Point",
         "coordinates": [-104.99404, 39.75621]
-    }
-}, {
+        }
+        }, {
     "type": "Feature",
     "properties": {
         "name": "Busch Field",
         "show_on_map": false
-    },
-    "geometry": {
+        },
+        "geometry": {
         "type": "Point",
         "coordinates": [-104.98404, 39.74621]
-    }
-}];
+        }
+        }];
 
-L.geoJSON(someFeatures, {
+    L.geoJSON(someFeatures, {
     filter: function(feature, layer) {
         return feature.properties.show_on_map;
     }
-}).addTo(map);
+    }).addTo(map);
 
     </script>
   </body>
